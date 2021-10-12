@@ -9,6 +9,11 @@ body {
     min-height: 100vh;
     align-items: center;
 }
+
+.fa-thumbs-down {
+    display: none;
+}
+
 .character {
     width: 20%;
     flex-basis: auto;
@@ -25,7 +30,7 @@ body {
 .character__card {
     position: relative;
     border: none;
-    background-color: #ff0099;
+    background-color: #c0a822;
     color: #fff;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }

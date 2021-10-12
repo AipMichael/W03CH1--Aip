@@ -23,6 +23,14 @@ class Personaje extends Componente {
     }
 
     morir() {
+        /* document
+            .querySelector(".character__action-kill")
+            .addEventListener("click", () => {
+                document.querySelector(".fa-thumbs-up").style.display = "none";
+                document.querySelector(".fa-thumbs-down").style.display =
+                    "inline";
+            }); */
+
         this.vivo = false;
     }
 
