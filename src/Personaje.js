@@ -23,6 +23,14 @@ class Personaje extends Componente {
     }
 
     morir() {
+        /* document
+            .querySelector(".character__action-kill")
+            .addEventListener("click", () => {
+                document.querySelector(".fa-thumbs-up").style.display = "none";
+                document.querySelector(".fa-thumbs-down").style.display =
+                    "inline";
+            }); */
+
         this.vivo = false;
     }
 
@@ -34,7 +42,7 @@ class Personaje extends Componente {
         const htmlText = `
                         <div class="card character__card">
                             <img
-                                src="image"
+                                src="./images/${this.nombre}.jpg"
                                 alt="Nombre y familia del personaje"
                                 class="character__picture card-img-top"
                             />
