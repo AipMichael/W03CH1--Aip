@@ -1,16 +1,13 @@
-import Personaje from "index.js";
+import Personaje from "./Personaje.js";
 
 class Reina extends Personaje {
-  constructor(nombre, familia, edad, reinado) {
-    super(nombre, familia, edad);
-    if (typeof reinado === "number") {
-      this.reinado = reinado;
-    }
-  }
+    reinado;
 
-  comunicar() {
-    return "Vais a morir todos";
-  }
+    constructor(nombre, familia, edad, reinado) {
+        super(nombre, familia, edad);
+        this.reinado = reinado;
+        this.comunicado = "Vais a morir todos! ";
+    }
 }
 
 export default Reina;

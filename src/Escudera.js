@@ -1,20 +1,19 @@
-import Personaje from "index.js";
+import Luchadora from "./Luchadora.js";
+import Personaje from "./Personaje.js";
 
 class Escudera extends Personaje {
-  constructor(nombre, familia, edad, ama, pelotismo) {
-    super(nombre, familia, edad);
-    this.ama = ama;
-    if (typeof pelotismo === "number" && pelotismo < 10 && pelotismo > 10) {
-      this.pelotismo = pelotismo;
-    }
-    if (ama instanceof luchadora) {
-      this.ama = ama;
-    }
-  }
+    luchadora;
+    pelotismo;
 
-  comunicar() {
-    return "Soy una loser";
-  }
+    constructor(nombre, familia, edad, luchador, pelotismo) {
+        super(nombre, familia, edad);
+        this.comunicado = "Soy una loser";
+        this.pelotismo = pelotismo;
+
+        if (luchador instanceof Luchadora) {
+            this.luchadora = luchadora;
+        }
+    }
 }
 
 export default Escudera;
