@@ -1,7 +1,7 @@
-import Escudera from "./Escudera.js";
-import Asesora from "./Asesora.js";
-import Luchadora from "./Luchadora.js";
-import Reina from "./Reina.js";
+import Escudera from "./src/Escudera.js";
+import Asesora from "./src/Asesora.js";
+import Luchadora from "./src/Luchadora.js";
+import Reina from "./src/Reina.js";
 
 let characters = [];
 
