@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    background-image: url("../images/wallpaper.jpg");
     overflow: hidden;
 }
 .characters-list {

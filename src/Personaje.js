@@ -34,7 +34,7 @@ class Personaje extends Componente {
         const htmlText = `
                         <div class="card character__card">
                             <img
-                                src="image"
+                                src="./images/${this.nombre}.jpg"
                                 alt="Nombre y familia del personaje"
                                 class="character__picture card-img-top"
                             />
